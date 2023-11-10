@@ -82,7 +82,7 @@ class HomeView extends StatelessWidget {
                                   .getResourcesByLanguageId(language);
                             },
                             child: CustomLanguageCardWidget(
-                              language: language,
+                              language: language.toString().toUpperCase(),
                             ),
                           ),
                         )
