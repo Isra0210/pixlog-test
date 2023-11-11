@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:pixlogtest/app/view/home_page.dart';
+import 'package:pixlogtest/app/resource/view/home_page.dart';
 
-import '../helper/router_helper.dart';
-import '../utils/theme/custom_theme.dart';
+import '../../helper/router_helper.dart';
+import '../../utils/theme/custom_theme.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
