@@ -102,6 +102,7 @@ if (firstTime == FisrtTimeEnum.no.name) {
 //Método que carrega a lista de linguagens
 void getLanguages() {
 	_languages.clear();
+	//groupedResourceListByLanguages é quem agrupa a lista de resource pela linguagem
 	groupedResourceListByLanguages = groupItemsByLanguage(_resources);
 	//_languages é a lista de linguagens exibida no filtro
 	_languages.addAll(groupedResourceListByLanguages.keys);
