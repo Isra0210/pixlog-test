@@ -33,7 +33,7 @@
 ### Fluxo básico das chamadas
 
 ```dart
-//Toda vez que é chamado para buscar os recursos, há uma verificação no storage de primeiro acesso
+//Toda vez que o método que busca os recursos é chamado, há uma verificação no storage de primeiro acesso
 Future<String?> isFirstTime() async {
 	return await storage.getStringFromStorage(
 		key: StorageKeysEnum.firstTime,
