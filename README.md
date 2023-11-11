@@ -22,9 +22,9 @@
 - [/helper](./lib/helper/) -> Onde está os métodos de ajuda para a aplicação.
   - [Api error](./lib/helper/api_error_helper.dart) -> Recebe um status code e retorna uma mensagem de erro
   - [Constants](./lib/helper/constants_helper.dart) -> Constantes global, como o link da API
-  - [Enums](./lib/helper/enum_helper.dart.dart) -> Constantes global, como o link da API
+  - [Enums](./lib/helper/enum_helper.dart) -> Constantes global, como o link da API
   - [Router](./lib/helper/router_helper.dart) -> Onde estão a chamada das rotas da aplicação
-  - [Storage](./lib/helper/storage_helper.dart.dart) -> Onde estão toda manipulação de inserção e busca do storage
+  - [Storage](./lib/helper/storage_helper.dart) -> Onde estão toda manipulação de inserção e busca do storage
 - [/utils](./lib/utils/) -> Onde estão os components de ajuda para a aplicação.
   - [Theme](./lib/utils/theme/) -> Onde estão configurado o thema da aplicação e as cores
   - [Widget](./lib/utils/widget/) -> Onde estão os widgets de escopo global
